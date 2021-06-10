@@ -9,6 +9,10 @@
     background-color: var(--color-white);
     border-bottom: var(--color-grey-light-2);
     height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
 }
 
 .content{
