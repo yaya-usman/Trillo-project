@@ -3,6 +3,8 @@
     max-width: 120rem;
     margin: 8rem auto;
     min-height: 50rem;
+    box-shadow: var(--shadow-dark);
+
 }
 
 .header{
@@ -12,7 +14,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem;
 }
 
 .content{
