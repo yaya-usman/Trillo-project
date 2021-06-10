@@ -1,0 +1,71 @@
+///////////////////////////////
+/////LOGO
+
+.logo{
+    width: 3.25rem;
+}
+
+
+
+
+
+///////////////////////////////
+/////SEARCH
+
+.search{
+
+    &__input{
+        width: 30%;
+    }
+
+    &__button{
+
+    }
+
+    &__icon{
+        width: 2rem;
+        height : 2rem;
+    }
+    
+
+
+}
+
+
+
+
+///////////////////////////////
+/////USER-NAV
+
+.user-nav{
+
+    &__icon-box{
+
+    }
+
+    &__icon{
+        width: 2.25rem;
+        height: 2.25rem;
+
+    }
+
+    &__notification{
+        background-color: orangered;
+        display: inline-block;
+        text-align: center;
+        color: var(--color-white);
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+    }
+
+    &__user-photo{
+        width: 3.75rem;
+        height: 3.75rem;
+        border-radius: 50%;
+    }   
+
+    &__user-name{
+
+    }
+}

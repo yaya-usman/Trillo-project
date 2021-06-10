@@ -41,6 +41,40 @@ body {
   min-height: 100vh;
 }
 
+.logo {
+  width: 3.25rem;
+}
+
+.search__input {
+  width: 30%;
+}
+
+.search__icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.user-nav__icon {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.user-nav__notification {
+  background-color: orangered;
+  display: inline-block;
+  text-align: center;
+  color: var(--color-white);
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+}
+
+.user-nav__user-photo {
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+}
+
 .container {
   background-color: var(--color-grey-light-1);
   max-width: 120rem;
@@ -67,4 +101,5 @@ body {
 .hotel-view {
   background-color: orangered;
   flex: 1;
+  color: var(--color-white);
 }
