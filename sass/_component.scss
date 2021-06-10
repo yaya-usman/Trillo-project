@@ -134,3 +134,37 @@
 
 
 }
+
+///////////////////////////////
+/////SIDE NAV
+
+.side-nav{
+
+    &__item{
+        list-style: none;
+    }
+
+    &__link{
+
+    }
+
+    &__icon{
+        height: 1.75rem;
+        width: 1.75rem;
+    }
+
+}
+
+
+///////////////////////////////
+/////  LEGAL TEXT
+
+.legal-text{
+    font-size: 1.2rem;
+    color: var(--color-grey-light-4);
+    padding: 2.5rem;
+    text-align: center;
+
+}
+
+
