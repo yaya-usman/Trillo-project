@@ -33,3 +33,30 @@
     flex: 1;
 
 }
+
+
+
+///////////////////////////////
+/////  DETAILS
+
+.details{
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+}
+
+.description{
+    font-size: 1.5rem;
+    margin-right: 4.5rem;
+    flex: 0 0 60%;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,.08);
+    padding: 3rem;
+
+
+}
+
+.reviews{
+    background-color: blueviolet;
+    flex: 1;
+}
