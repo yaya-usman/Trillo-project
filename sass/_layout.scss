@@ -2,8 +2,15 @@
     background-color: var(--color-grey-light-1);
     max-width: 120rem;
     margin: 8rem auto;
-    min-height: 50rem;
     box-shadow: var(--shadow-dark);
+
+    @media only screen and (max-width:$bp-largest){
+        margin: 0;
+        max-width: 100%;
+    }
+
+
+
 
 }
 
@@ -14,10 +21,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    
+    @media only screen and (max-width:$bp-smallest){
+        height: 11rem;
+        flex-wrap: wrap;
+        align-content: space-around;
+        
+    }
 }
 
 .content{
     display: flex;
+
+    @media only screen and (max-width:$bp-medium){
+        flex-direction: column;
+    }
 }
 
 .sidebar{
@@ -45,6 +64,15 @@
     padding: 4.5rem;
     background-color: var(--color-grey-light-1);
     border-bottom: var(--line);
+
+    @media only screen and (max-width:$bp-medium){
+            padding: 3rem;
+     }
+
+     @media only screen and (max-width:$bp-small){
+        flex-direction: column;
+
+    }
 }
 
 .description{
@@ -54,11 +82,24 @@
     box-shadow: 0 2rem 6rem rgba(0,0,0,.08);
     padding: 3rem;
 
+    @media only screen and (max-width:$bp-medium){
+        padding: 2rem;
+        margin-right: 3rem;
+ }
+
+ @media only screen and (max-width:$bp-small){
+    margin-right: 0;
+    margin-bottom: 3rem;
+}
+
 
 }
 
 .user-review{
     flex: 1;
+
+   
+
     display: flex;
     flex-direction: column;
     align-items: center;

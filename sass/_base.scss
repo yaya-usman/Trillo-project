@@ -23,6 +23,15 @@
     --line: 1px solid var(--color-grey-light-2);
 }
 
+$bp-largest:75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-smallest: 31.25em; //500px
+$bp-xsmallest: 25em; //400px
+$bp-xxsmallest: 20em; //320px
+
+
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +46,21 @@
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+
+    @media only screen and (max-width:$bp-largest){
+            font-size: 50%;   
+ }
+
+    @media only screen and (max-width:$bp-xsmallest){
+        font-size: 43.75%;           
+    }
+
+    @media only screen and (max-width:$bp-xxsmallest){
+        font-size: 37.5%;           
+    }
+
+ 
+
 }
 
 
