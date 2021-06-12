@@ -424,6 +424,60 @@ body {
   z-index: 1;
 }
 
+.cta {
+  background-color: var(--color-white);
+  text-align: center;
+  padding: 3.5rem 0;
+}
+
+.cta__book-now {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem 6rem;
+  border: none;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+  border-radius: 100px;
+  color: var(--color-white);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn > * {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: all .2s;
+}
+
+.btn__invisible {
+  position: absolute;
+  left: 0;
+  top: -100%;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, var(--color-primary-dark), var(--color-primary-light));
+}
+
+.btn:hover .btn__visible {
+  transform: translateY(-200%);
+}
+
+.btn:hover .btn__invisible {
+  top: 0%;
+  transform: translateY(35%);
+}
+
 .container {
   background-color: var(--color-grey-light-1);
   max-width: 120rem;
