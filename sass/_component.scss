@@ -526,7 +526,6 @@
 .btn{
     font-size: 1.5rem;
     font-weight: 300;
-    padding: 2rem 6rem;
     border: none;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
@@ -550,12 +549,16 @@
 
     }
     
+    &__visible{
+        padding: 2rem 7.5rem;
+    }
 
    
     &__invisible{
         position: absolute;
         left: 0;
         top: -100%;
+        padding: 2rem 0;
        
     }
 
@@ -567,14 +570,12 @@
     }
     
     &:hover  &__visible{
-        transform: translateY(-200%);
+        transform: translateY(100%);
 
     }
 
     &:hover  &__invisible{
-        top: 0%;
-        transform: translateY(35%);
-        
+        top: 0%;        
 }
 
 
