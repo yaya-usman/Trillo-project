@@ -1,24 +1,10 @@
-# Natour -  Discover new tours😎
+# Trillo - your one-stop luxurious hotel🎈
 
-A landing page for an imaginary tour agency
-## Table of contents
+A webpage for an imaginary hotel🤗, click the link below👇👇 to check it out, 
 
-- [Overview](#overview)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-## Overview
 
-### Links
-
-- Live Site URL: [Click here](https://suspicious-borg-a12829.netlify.app/)
-
-## My process
+- Live Site URL: [Click here](https://trillo-project-73e62ai1t-yaya-usman.vercel.app/)
 
 ### Built with
 
@@ -32,31 +18,22 @@ A landing page for an imaginary tour agency
 
 ### What I learned
 
-I learnt a lot by building this project,to mention but few:
-- Float layouts
-- Grid
+- Creating responsive Layouts entirely with Flexbox
 - CSS Animations
 - CSS Hacks
 - Semantic HTML
-- Sass
-- Responsive design
-- Project Organization
+- Sass/SCSS
+
 and many more................
 
 
 
 
 ```js
-const HadFun = () => {
+const IHadFun = () => {
   console.log('Yay!🎉')
 }
 ```
-
-
-
-### Continued development
-
-Future version will have more functionality added to it, make the website a fullstack project, probably will rebuild it using **ReactJs** Since this is built with purely **HTML/CSS/Sass** no javascript. Watch out for this repo in the future🙂
 
 
 
@@ -69,5 +46,5 @@ Future version will have more functionality added to it, make the website a full
 
 ## Acknowledgments
 
-I will like acknowledge [Jonas Schemdtman](https://www.udemy.com/user/jonasschmedtmann/) a wonderful teacher,who made this project possible, this isn't just a code along project, i learnt alot building this along with him, after pretty much taking his [Advanced CSS and Sass]() i am pretty much confident in my design skills,i owe that to him. Here you can check out his courses on [Udemy](https://www.udemy.com/user/jonasschmedtmann/), all his courses are pure Masterclass.
+I will like to acknowledge [Jonas Schemdtman](https://www.udemy.com/user/jonasschmedtmann/) once more, whose course helped me to understand Flexbox deeply by bulding this project and also i'll like to give credit to [CSS tricks](https://css-tricks.com/) website as well, i used it as an introductory resource in learning flexbox, the 'Guide to Flexbox' post by [Chris Coyier](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) was clear and concise,it helped me. After building this project, i am pretty much confident in using flexbox in my next projects😉.
 
