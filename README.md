@@ -1,6 +1,6 @@
-# Trillo - your one-stop luxurious hotel🎈
+# Trillo - your one-stop luxurious hotel🤗
 
-A webpage for an imaginary hotel🤗, click the link below👇👇 to check it out, 
+A webpage for an imaginary hotel
 
 
 
@@ -10,10 +10,10 @@ A webpage for an imaginary hotel🤗, click the link below👇👇 to check it o
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Float layout
+- Flexbox
 - Sass/SCSS
 - Desktop-first workflow
-- BEM Methodology for class naming
+- BEM Methodology
 
 
 ### What I learned
